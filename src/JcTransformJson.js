@@ -1,6 +1,6 @@
 import { html, css, LitElement } from 'lit-element';
 
-export class OgJsonUtils extends LitElement {
+export class JcTransformJson extends LitElement {
   static get styles() {
     return css`
       :host {
