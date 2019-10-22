@@ -37,6 +37,7 @@
     "jc-plugin"
   ],
   "dependencies": {
+    "@granite-elements/ace-widget": "^2.2.7-b1",
     "lit-element": "^2.0.1",
     "lit-html": "^1.0.0"
   },

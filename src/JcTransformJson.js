@@ -1,4 +1,5 @@
 import { html, css, LitElement } from 'lit-element';
+import '@granite-elements/ace-widget';
 
 export class JcTransformJson extends LitElement {
   static get styles() {
@@ -30,6 +31,13 @@ export class JcTransformJson extends LitElement {
   render() {
     return html`
       <pre>${this.data}</pre>
+      <ace-widget
+        placeholder="Write something... Anything..."
+        mode="ace/mode/javascript"
+        theme="ace/theme/crimson_editor"
+        initial-focus
+      >
+      </ace-widget>
       <button @click=${this.__transformJson}>Transform</button>
     `;
   }
