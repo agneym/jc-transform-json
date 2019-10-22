@@ -30,7 +30,7 @@ export class JcTransformJson extends LitElement {
 
   render() {
     return html`
-      <pre>${this.data}</pre>
+      <h1>Transform JSON</h1>
       <ace-widget
         placeholder="Write something... Anything..."
         mode="ace/mode/javascript"
