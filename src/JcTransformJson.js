@@ -1,6 +1,8 @@
 import { html, css, LitElement } from 'lit-element';
 import '@granite-elements/ace-widget';
 
+import codeForTransform from './config/initial.js';
+
 export class JcTransformJson extends LitElement {
   static get styles() {
     return css`
@@ -36,6 +38,8 @@ export class JcTransformJson extends LitElement {
         mode="ace/mode/javascript"
         theme="ace/theme/crimson_editor"
         initial-focus
+        value=${codeForTransform}
+        wrap="true"
       >
       </ace-widget>
       <button @click=${this.__transformJson}>Transform</button>
