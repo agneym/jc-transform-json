@@ -2,5 +2,9 @@
   "extends": [
     "@open-wc/eslint-config",
     "eslint-config-prettier"
-  ]
+  ],
+  "rules": {
+    "no-new-func": 0,
+    "no-console": 0
+  }
 }
