@@ -1,11 +1,11 @@
 {
-  "name": "@agney/og-json-utils",
-  "version": "0.0.5",
+  "name": "@agney/jc-transform-json",
+  "version": "0.0.1",
   "description": "A JSON utils test file",
   "author": "Agney Menon <agney@outlook.in>",
   "license": "MIT",
-  "main": "dist/og-json-utils.js",
-  "module": "dist/og-json-utils.js",
+  "main": "dist/jc-transform-json.js",
+  "module": "dist/jc-transform-json.js",
   "scripts": {
     "start": "es-dev-server --app-index demo/index.html --node-resolve --open --watch",
     "start:compatibility": "es-dev-server --app-index demo/index.html --compatibility all --node-resolve --open --watch",
