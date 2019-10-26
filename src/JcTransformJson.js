@@ -52,10 +52,9 @@ export class JcTransformJson extends LitElement {
     try {
       const originalValueObj = JSON.parse(this.data);
       const transformedValue = Function(`"use strict";return (${this.value})`)()(originalValueObj);
-      const transformedValueJson = JSON.stringify(transformedValue);
       const event = new CustomEvent('json-transform', {
         detail: {
-          message: transformedValueJson,
+          message: transformedValue,
         },
       });
       this.dispatchEvent(event);
