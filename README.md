@@ -1,5 +1,7 @@
 # Transform JSON - JSON Crew Plugin
 
+> To be used with [JSON Crew](https://jsoncrew.agney.dev)
+
 ## Installation
 ```bash
 npm i @agney/jc-transform-json
@@ -11,25 +13,24 @@ npm i @agney/jc-transform-json
   import '@agney/jc-transform-json/jc-transform-json.js';
 </script>
 
-<jc-transform-json></jc-transform-json>
+<jc-transform-json .data=${'{ "thing": "nothing" }'}>
+</jc-transform-json>
 ```
 
-## Testing using karma (if applied by author)
+## Run Demo
+
 ```bash
+npm i
+npm start
+```
+
+## Testing using karma
+```bash
+npm i
 npm run test
 ```
 
-## Testing using karma via browserstack (if applied by author)
-```bash
-npm run test:bs
-```
-
-## Demoing using storybook (if applied by author)
-```bash
-npm run storybook
-```
-
-## Linting (if applied by author)
+## Linting
 ```bash
 npm run lint
 ```
