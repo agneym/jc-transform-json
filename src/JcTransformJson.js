@@ -8,7 +8,7 @@ export class JcTransformJson extends LitElement {
     return css`
       :host {
         display: block;
-        padding: 25px;
+        padding: 0 20px;
         height: 100%;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,
           sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
