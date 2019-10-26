@@ -1,17 +1,17 @@
-# Work in Progress
+# Transform JSON - JSON Crew Plugin
 
 ## Installation
 ```bash
-npm i og-json-utils
+npm i @agney/jc-transform-json
 ```
 
 ## Usage
 ```html
 <script type="module">
-  import 'og-json-utils/og-json-utils.js';
+  import '@agney/jc-transform-json/jc-transform-json.js';
 </script>
 
-<og-json-utils></og-json-utils>
+<jc-transform-json></jc-transform-json>
 ```
 
 ## Testing using karma (if applied by author)
