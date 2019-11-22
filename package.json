@@ -2,6 +2,7 @@
   "name": "@agney/jc-transform-json",
   "version": "0.0.4",
   "description": "A JSON utils test file",
+  "homepage": "https://jsoncrew.agney.dev",
   "author": "Agney Menon <agney@outlook.in>",
   "license": "MIT",
   "main": "dist/jc-transform-json.js",
@@ -69,5 +70,12 @@
       "prettier --write",
       "git add"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agneym/jc-transform-json"
+  },
+  "bugs": {
+    "url": "https://github.com/agneym/jc-transform-json/issues"
   }
 }
